@@ -15,10 +15,11 @@
     "isolatedModules": true,
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
-    "jsx": "react-jsx",
+    "jsx": "react",
     "baseUrl": "./src"
   },
-  "include": ["src", "internals/startingTemplate/**/*"],
+  "include": ["src"],
+  "typeRoots": ["node_modules/@types", "types/"],
   "ts-node": {
     "compilerOptions": {
       "esModuleInterop": true,
